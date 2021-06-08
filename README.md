@@ -36,25 +36,25 @@ No Uno existem dois tipos de cartas: as normais e as especiais:
     do jogo de alguma forma. Para esta versão do jogo só existem as 
     seguintes:
     
-    ![Draw 2 Cards](../img/draw2.jpg)
+    ![Draw 2 Cards](/img/draw2.jpg)
     Esta carta força o jogador seguinte a tirar do baralho duas cartas 
     aleatórias. Esta carta existe 2 vezes por cada cor (i.e. 8). 
     
-    ![Reverse](../img/reverse.jpg)
+    ![Reverse](/img/reverse.jpg)
     Esta carta força a mudança da "ordem dos jogadores", ou seja se os 
     jogadores jogam na ordem dos ponteiros do relógio, esta ordem é invertida. 
     Esta carta existe 2 vezes por cada cor (i.e. 8).
     
-    ![Skip](../img/skip.jpg)
+    ![Skip](/img/skip.jpg)
     Esta carta força o jogador seguinte a perder o turno. Esta carta 
     existe 2 vezes por cada cor (i.e. 8)
     
-    ![Wild Color Change](../img/wild.jpg)
+    ![Wild Color Change](/img/wild.jpg)
     Esta carta é um joker e não tem cor associada. O jogador que joga esta 
     carta pode mudar a cor que está em jogo para qualquer outra das 4 cores 
     existentes. Esta carta existe 4 vezes no baralho.
     
-    ![Wild 4 Color](../img/wild4.jpg)
+    ![Wild 4 Color](/img/wild4.jpg)
     Esta carta é um joker e não tem cor associada. Esta carta como a anterior 
     força a mudança de cor que está em jogo para qualque outra das 4 cores e 
     força o jogador seguinte a tirar 4 cartas do baralho. Esta carta existe 
@@ -63,7 +63,7 @@ No Uno existem dois tipos de cartas: as normais e as especiais:
 
 ## Experimenta o Jogo!
 
-
+[Experimenta o Jogo](https://poki.com/en/g/uno-online)
 
 ## Funcionamento da Aplicação
 
