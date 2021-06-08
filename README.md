@@ -10,65 +10,67 @@ tipo de inteligência artificial.
 
 O jogo **Uno** é um jogo de cartas com o seguinte formato:
 
-* Nesta versão o jogo é jogado por **três jogadores** onde cada jogador 
+* Nesta versão o jogo é jogado por **três jogadores** onde cada jogador
 começa com 7 cartas na mão tiradas aleatóriamente.
-* O Objectivo do jogo consiste em livrar-se de todas as cartas da sua 
+* O objetivo do jogo consiste em livrar-se de todas as cartas da sua
 mão. **O primeiro jogador sem cartas ganha o jogo!**
-* A cada turno um jogador tem que jogar uma carta para o "discard pile" 
-de forma que este iguala a cor, numero ou ação da ultima carta que foi 
+* A cada turno um jogador tem que jogar uma carta para o "discard pile"
+de forma que esta iguale a cor, número ou ação da ultima carta que foi
 jogada.
-* Se o jogador não tem nenhuma carta que possa jogar no turno então tem 
+* Se o jogador não tiver nenhuma carta que possa jogar no turno então tem
 que tirar uma carta do baralho.
-* Se já não existir mais cartas no baralho, o jogo volta a baralhar 
-todas as cartas do "discard pile" **menos a ultima que foi jogada**, 
-e volta a coloca-los em jogo. 
+* Se já não existirem mais cartas no baralho, o jogo volta a baralhar
+todas as cartas do "discard pile" **menos a última que foi jogada**,
+e volta a colocá-las em jogo.
 
 ## Cartas Existentes
 
 No Uno existem dois tipos de cartas: as normais e as especiais:
-  * **Cartas Normais**:
-    * As cartas normais consistem de 10 cartas enumeradas (de 0 a 9)
-    de 4 cores differentes (vermelho, amarelo, azul e verde).
-    * No baralho inteiro todas as cartas se repetem pelo menos duas 
-    vezes, com a excepção do 0 onde só existe uma de cada tipo.
-  * **Cartas Ação**:
-    * As cartas ação são cartas que modificam as "regras normais" 
-    do jogo de alguma forma. Para esta versão do jogo só existem as 
-    seguintes:
-    
-    ![Draw 2 Cards](/img/draw2.jpg "Draw 2 Cards Card")
-    
-    Esta carta força o jogador seguinte a tirar do baralho duas cartas 
-    aleatórias. Esta carta existe 2 vezes por cada cor (i.e. 8). 
-    
-    ![Reverse](/img/reverse.jpg "Reverse Play Order Card")
-    
-    Esta carta força a mudança da "ordem dos jogadores", ou seja se os 
-    jogadores jogam na ordem dos ponteiros do relógio, esta ordem é invertida. 
-    Esta carta existe 2 vezes por cada cor (i.e. 8).
-    
-    ![Skip](/img/skip.jpg "Skip Turn Card")
-    
-    Esta carta força o jogador seguinte a perder o turno. Esta carta 
-    existe 2 vezes por cada cor (i.e. 8)
-    
-    ![Wild Color Change](/img/wild.jpg "Color Change Wild Card")
-    
-    Esta carta é um joker e não tem cor associada. O jogador que joga esta 
-    carta pode mudar a cor que está em jogo para qualquer outra das 4 cores 
-    existentes. Esta carta existe 4 vezes no baralho.
-    
-    ![Wild 4 Color](/img/wild4.jpg "Color Change and Take 4 Wild Card")
-    
-    Esta carta é um joker e não tem cor associada. Esta carta como a anterior 
-    força a mudança de cor que está em jogo para qualque outra das 4 cores e 
-    força o jogador seguinte a tirar 4 cartas do baralho. Esta carta existe 
-    4 vezes no baralho.
 
+* **Cartas Normais**:
+  * As cartas normais consistem de 10 cartas numeradas de 0 a 9
+    de 4 cores diferentes (vermelho, amarelo, azul e verde).
+  * No baralho inteiro todas as cartas repetem-se pelo menos duas
+    vezes, com a exceção do 0 onde só existe uma de cada tipo.
+* **Cartas Ação**: as cartas ação são cartas que modificam as "regras normais"
+    do jogo de alguma forma. Para esta versão do jogo só existem as seguintes:
+
+    * *Draw 2 Cards Card*: Esta carta força o jogador seguinte a tirar do
+      baralho duas cartas aleatórias. Esta carta existe 2 vezes por cada cor
+      (ou seja, existem 8 no total).
+
+      ![Draw 2 Cards](img/draw2.jpg "Draw 2 Cards Card")
+
+    * *Reverse Play Order Card*: Esta carta força a mudança da "ordem dos
+      jogadores", ou seja se os jogadores jogam na ordem dos ponteiros do
+      relógio, esta ordem é invertida. Esta carta existe 2 vezes por cada cor
+      (ou seja, existem 8 no total).
+
+      ![Reverse](img/reverse.jpg "Reverse Play Order Card")
+
+    * *Skip Turn Card*: Esta carta força o jogador seguinte a perder o turno.
+      Esta carta existe 2 vezes por cada cor (ou seja, existem 8 no total).
+
+      ![Skip](img/skip.jpg "Skip Turn Card")
+
+    * _Color Change Wild Card_: Esta carta é um joker e não tem cor associada. O
+      jogador que joga esta carta pode mudar a cor que está em jogo para
+      qualquer outra das 4 cores existentes. Esta carta existe 4 vezes no
+      baralho.
+
+      ![Wild Color Change](img/wild.jpg "Color Change Wild Card")
+
+    * _Color Change and Take 4 Wild Card_: Esta carta é um joker e não tem cor
+      associada. Esta carta, como a anterior, força a mudança de cor que está em
+      jogo para qualquer outra das 4 cores e força o jogador seguinte a tirar 4
+      cartas do baralho. Esta carta existe 4 vezes no baralho.
+
+      ![Wild 4 Color](img/wild4.jpg "Color Change and Take 4 Wild Card")
 
 ## Experimenta o Jogo!
 
-Experimentem o jogo [aqui](https://poki.com/en/g/uno-online)!
+Antes de começarem a desenvolver o jogo é essencial que o compreendam bem.
+Podem experimentar o jogo [aqui](https://poki.com/en/g/uno-online)!
 
 ## Funcionamento da Aplicação
 
@@ -95,12 +97,12 @@ documentação:
 
 ### Organização do código e estrutura de classes
 
-O projeto deve estar devidamente organizado, fazendo uso de classes, _structs_
-e enumerações. Cada classe, _struct_ ou enumeração deve ser colocada num
-ficheiro com o mesmo nome. Por exemplo, uma classe chamada `Piece` deve ser
-colocada no ficheiro `Piece.cs`. A estrutura de classes deve ser bem pensada e
-organizada de uma forma lógica, e [cada classe deve ter uma responsabilidade
-específica e bem definida][SRP].
+O projeto deve estar devidamente organizado usando a abordagem MVC discutida nas
+aulas, fazendo uso de classes, _structs_ e enumerações. Cada classe, _struct_ ou
+enumeração deve ser colocada num ficheiro com o mesmo nome. Por exemplo, uma
+classe chamada `Card` deve ser colocada no ficheiro `Card.cs`. A estrutura de
+classes deve ser bem pensada usando a abordagem MVC, e [cada classe deve ter
+uma responsabilidade específica e bem definida][SRP].
 
 ## Objetivos e critério de avaliação
 
@@ -157,7 +159,7 @@ Este projeto tem os seguintes objetivos:
     Atenção aos erros ortográficos e à correta formatação [Markdown], pois
     ambos serão tidos em conta na nota final.
 
-O projeto tem um peso de 5 valores na nota final da disciplina e será avaliado
+O projeto tem um peso de 10 valores na nota final da disciplina e será avaliado
 de forma qualitativa. Isto significa que todos os objetivos têm de ser
 parcialmente ou totalmente cumpridos. A cada objetivo, O1 a O5, será atribuída
 uma nota entre 0 e 1. A nota do projeto será dada pela seguinte fórmula:
