@@ -172,7 +172,7 @@ não comparerecem na discussão, a nota final será zero.
 ## Entrega
 
 O projeto deve ser entregue por **grupos de 2 a 3 alunos** via Moodle até às
-23h de 16 de maio de 2021. Um (e apenas um) dos elementos do grupo deve ser
+23h de **25 de Junho de 2021**. Um (e apenas um) dos elementos do grupo deve ser
 submeter um ficheiro `zip` com a solução completa, nomeadamente:
 
 * Pasta escondida `.git` com o repositório Git local do projeto.
@@ -190,6 +190,8 @@ submeter um ficheiro `zip` com a solução completa, nomeadamente:
 
 Não serão avaliados projetos sem estes elementos e que não sejam entregues
 através do Moodle.
+
+Discussões do projeto irão se realizar no dia **28 de Junho de 2021**.
 
 ## Honestidade académica
 
